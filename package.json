@@ -1,0 +1,14 @@
+{
+  "name": "03-basesnode",
+  "version": "1.0.0",
+  "description": "Archivo ejecutado mediante linea de comando para recibir una base, calcular su respectiva tabla de multiplicar y guardar el resultado en un archivo de texto",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app base=2"
+  },
+  "author": "Carlos Rangel",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.4.1"
+  }
+}
